@@ -23,4 +23,5 @@ postgraphile --plugins @graphile/pg-pubsub \
              --cors \
              --subscriptions \
              --simple-subscriptions \
-             --dynamic-json
+             --dynamic-json \
+             --append-plugins @fullstackio/postgraphile-upsert-plugin:PgMutationUpsertPlugin

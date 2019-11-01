@@ -5,7 +5,7 @@ ENV DB_USERNAME admin
 ENV DB_PASSWORD password
 
 # Install Sequelize and Postgraphile
-RUN npm install -g sequelize pg sequelize-cli postgraphile @graphile/pg-pubsub
+RUN npm install -g sequelize pg sequelize-cli postgraphile @graphile/pg-pubsub @fullstackio/postgraphile-upsert-plugin
 RUN npm install dotenv
 
 # Create app directory
