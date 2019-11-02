@@ -18,7 +18,7 @@ postgraphile --plugins @graphile/pg-pubsub \
              -c postgres://$DB_USERNAME:$DB_PASSWORD@$DB_HOST/$DB_DATABASE \
              --watch \
              --enhance-graphiql \
-             --port 8080 \
+             --port 8081 \
              -n 0.0.0.0 \
              --cors \
              --subscriptions \
