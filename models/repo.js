@@ -5,7 +5,9 @@ module.exports = (sequelize, DataTypes) => {
     {
       name: DataTypes.STRING,
       orgId: DataTypes.INTEGER,
-      fullName: DataTypes.STRING
+      fullName: DataTypes.STRING,
+      lastSynced: DataTypes.DATE,
+      defaultBranch: DataTypes.STRING
     },
     {}
   );

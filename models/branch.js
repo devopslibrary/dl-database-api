@@ -6,7 +6,8 @@ module.exports = (sequelize, DataTypes) => {
       name: DataTypes.STRING,
       repoId: DataTypes.INTEGER,
       lastCommitDate: DataTypes.DATE,
-      protected: DataTypes.BOOLEAN
+      protected: DataTypes.BOOLEAN,
+      lastSynced: DataTypes.DATE
     },
     {}
   );

@@ -11,7 +11,9 @@ module.exports = {
           name: "fancy-microservice",
           fullName: "sampleorg/fancy-microservice",
           createdAt: new Date(),
-          updatedAt: new Date()
+          updatedAt: new Date(),
+          lastSynced: new Date(),
+          defaultBranch: "master"
         },
         {
           id: 1133,
@@ -19,7 +21,9 @@ module.exports = {
           name: "old-java-backend",
           fullName: "sampleorg/old-java-backend",
           createdAt: new Date(),
-          updatedAt: new Date()
+          updatedAt: new Date(),
+          lastSynced: new Date(),
+          defaultBranch: "develop"
         }
       ],
       {}

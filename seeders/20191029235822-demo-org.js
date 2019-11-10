@@ -10,7 +10,8 @@ module.exports = {
           name: "devopslibrary",
           installationId: 4631459,
           createdAt: new Date(),
-          updatedAt: new Date()
+          updatedAt: new Date(),
+          lastSynced: new Date()
         }
       ],
       {}

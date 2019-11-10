@@ -32,6 +32,14 @@ module.exports = {
       updatedAt: {
         allowNull: false,
         type: Sequelize.DATE
+      },
+      lastSynced: {
+        allowNull: false,
+        type: Sequelize.DATE
+      },
+      defaultBranch: {
+        allowNull: false,
+        type: Sequelize.STRING
       }
     });
   },

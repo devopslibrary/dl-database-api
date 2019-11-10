@@ -12,7 +12,8 @@ module.exports = {
           protected: true,
           lastCommitDate: new Date(),
           createdAt: new Date(),
-          updatedAt: new Date()
+          updatedAt: new Date(),
+          lastSynced: new Date()
         },
         {
           id: 556,
@@ -21,7 +22,8 @@ module.exports = {
           protected: false,
           lastCommitDate: new Date(),
           createdAt: new Date(),
-          updatedAt: new Date()
+          updatedAt: new Date(),
+          lastSynced: new Date()
         },
         {
           id: 557,
@@ -30,7 +32,8 @@ module.exports = {
           protected: true,
           lastCommitDate: new Date(2018, 7, 25),
           createdAt: new Date(),
-          updatedAt: new Date()
+          updatedAt: new Date(),
+          lastSynced: new Date()
         },
         {
           id: 558,
@@ -39,7 +42,8 @@ module.exports = {
           protected: false,
           lastCommitDate: new Date(2012, 1, 25),
           createdAt: new Date(),
-          updatedAt: new Date()
+          updatedAt: new Date(),
+          lastSynced: new Date()
         }
       ],
       {}

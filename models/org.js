@@ -4,7 +4,8 @@ module.exports = (sequelize, DataTypes) => {
     "Org",
     {
       name: DataTypes.STRING,
-      installationId: DataTypes.INTEGER
+      installationId: DataTypes.INTEGER,
+      lastSynced: DataTypes.DATE
     },
     {}
   );

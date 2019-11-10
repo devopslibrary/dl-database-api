@@ -36,6 +36,10 @@ module.exports = {
       updatedAt: {
         allowNull: false,
         type: Sequelize.DATE
+      },
+      lastSynced: {
+        allowNull: false,
+        type: Sequelize.DATE
       }
     });
   },
