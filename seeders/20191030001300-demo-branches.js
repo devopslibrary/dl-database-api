@@ -6,43 +6,39 @@ module.exports = {
       "Branches",
       [
         {
-          id: 555,
+          id:
+            "ZXYY6Q29tbWl0MTQ5OTQxNjc2OmVmMGNmNmEzZmQ0MGQ2NjBlNDUwMTNhODIxZDg0YTIyYTY5MmE0MWI=",
           repoId: 1122,
           name: "master",
           protected: true,
           lastCommitDate: new Date(),
-          createdAt: new Date(),
-          updatedAt: new Date(),
           lastSynced: new Date()
         },
         {
-          id: 556,
+          id:
+            "HEL6Q29tbWl0MTQ5OTQxNjc2OmVmMGNmNmEzZmQ0MGQ2NjBlNDUwMTNhODIxZDg0YTIyYTY5MmE0MWI=",
           repoId: 1122,
           name: "feature/DL-25-Great-New-Feature",
           protected: false,
           lastCommitDate: new Date(),
-          createdAt: new Date(),
-          updatedAt: new Date(),
           lastSynced: new Date()
         },
         {
-          id: 557,
+          id:
+            "BELLQ29tbWl0MTQ5OTQxNjc2OmVmMGNmNmEzZmQ0MGQ2NjBlNDUwMTNhODIxZDg0YTIyYTY5MmE0MWI=",
           repoId: 1133,
           name: "master",
           protected: true,
           lastCommitDate: new Date(2018, 7, 25),
-          createdAt: new Date(),
-          updatedAt: new Date(),
           lastSynced: new Date()
         },
         {
-          id: 558,
+          id:
+            "WHATQ29tbWl0MTQ5OTQxNjc2OmVmMGNmNmEzZmQ0MGQ2NjBlNDUwMTNhODIxZDg0YTIyYTY5MmE0MWI=",
           repoId: 1133,
           name: "hotfix/long-forgotten-never-merged",
           protected: false,
           lastCommitDate: new Date(2012, 1, 25),
-          createdAt: new Date(),
-          updatedAt: new Date(),
           lastSynced: new Date()
         }
       ],

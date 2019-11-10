@@ -6,7 +6,7 @@ module.exports = {
         allowNull: false,
         autoIncrement: false,
         primaryKey: true,
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
         unique: true
       },
       name: {
@@ -28,14 +28,6 @@ module.exports = {
       protected: {
         allowNull: false,
         type: Sequelize.BOOLEAN
-      },
-      createdAt: {
-        allowNull: false,
-        type: Sequelize.DATE
-      },
-      updatedAt: {
-        allowNull: false,
-        type: Sequelize.DATE
       },
       lastSynced: {
         allowNull: false,
