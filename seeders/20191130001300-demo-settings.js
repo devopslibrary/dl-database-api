@@ -6,15 +6,6 @@ module.exports = {
       "Settings",
       [
         {
-          id: 42,
-          orgId: 11233903,
-          nukeStaleBranches: false,
-          nukeStalePRs: false,
-          createdAt: new Date(),
-          updatedAt: new Date()
-        },
-        {
-          id: 43,
           orgId: 11233903,
           nukeStaleBranches: false,
           nukeStalePRs: false,

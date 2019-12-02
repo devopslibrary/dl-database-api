@@ -2,16 +2,10 @@
 module.exports = {
   up: (queryInterface, Sequelize) => {
     return queryInterface.createTable("Settings", {
-      id: {
-        allowNull: false,
-        autoIncrement: false,
-        primaryKey: true,
-        type: Sequelize.INTEGER,
-        unique: true
-      },
       orgId: {
         allowNull: false,
         type: Sequelize.INTEGER,
+        primaryKey: true,
         references: {
           model: "Orgs",
           key: "id"
